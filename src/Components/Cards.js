@@ -9,7 +9,7 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <Cardsitem src='/Pictures/marvel/civilwar.jpg' text="Civil War Captain America" label="MARVEL" path='/services' />
+                        <Cardsitem src='/Pictures/marvel/civilwar.jpg' text="Civil War Captain America" label="MARVEL" />
                     </ul>
                 </div>
             </div>

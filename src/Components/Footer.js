@@ -17,7 +17,7 @@ function Footer() {
             <input
               className='footer-input'
               name='email'
-              type='email'
+              type='text'
               placeholder='Type Here'
             />
 

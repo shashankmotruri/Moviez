@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
 import './Navbar.css';
-
+import AuthOptions from './Auth/AuthOptions';
 
 
 function Navbar() {
@@ -41,18 +41,13 @@ function Navbar() {
                             Home
                         </Link>
                     </li>
-                    <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu} >
-                            All Movies
-                        </Link>
+                    <li>
+                    <AuthOptions />
                     </li>
-                    <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu} >
-                            Suggest
-                        </Link>
-                    </li>
+        
                 </ul>
 
+              
             </div>
           </nav>  
         </>
