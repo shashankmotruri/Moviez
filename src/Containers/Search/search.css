@@ -1,0 +1,14 @@
+.align-items-center {
+    color:black;
+    background-color:white;
+    height: 34px;
+    width: 25em;
+    position: relative;
+    left: 31em;
+    top: 1em;
+}
+.search-box{
+    height: 34px;
+    width: 400px;
+    padding: 1em;
+}

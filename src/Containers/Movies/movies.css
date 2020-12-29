@@ -1,15 +1,14 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background:#000000 ;
   }
   
   h1 {
     text-align: center;
+    color:white;
   }
   
   .cards__container {
-    display: flex;
-    flex-flow: column;
     align-items: center;
     max-width: 1120px;
     width: 90%;
@@ -26,16 +25,15 @@
   }
   
   .cards__item {
-    display: flex;
-    flex: 1;
     margin: 0 1rem;
+    margin-top: 8px;
     border-radius: 10px;
   }
   
   .cards__item__link {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
+
+    width: 240px !important;
+    height: 228px !important;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -111,8 +109,11 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .movies-list-container {
       display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      flex-direction: row ;
     }
   }
   
